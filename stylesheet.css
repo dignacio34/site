@@ -1,0 +1,160 @@
+body {
+	font-family: helvetica, sans-serif;
+	font-color: black;	
+	background-color: white;
+	background-image:url(whitebackground.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+ul#menu {
+	margin: 35px 35px;
+	padding: 3px;
+	font-family: helvetica, sans-serif;
+	font-color: white;
+	list-style-type: none;
+	text-align: center;
+	background-color: black;
+	border: 1px solid black;
+}
+  
+ul#menu li {
+	display: inline;
+	font-family: helvetica, sans-serif;
+	font-color: white;
+	background-color: #8B0000;
+	border: 1px solid #8B0000;
+}
+  
+ul#menu li a {
+	padding: 5px 10px;
+	font-family: helvetica, sans-serif;
+	color: white;
+	text-decoration: none;
+	background-color: #8B0000;
+	border: 1px solid #8B0000;
+}
+
+#menu a:link {
+	text-decoration: none;
+}
+
+#menu a:hover, a:active {
+	color: white; 
+	font-weight: bold;
+}
+
+#menu a: visited {
+	color: black;
+}
+
+a: link {
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #8B0000; 
+	font-weight: bold;
+}
+
+a: visited {
+	color: #8B0000;
+}
+
+h1 {
+	font-family: 'Sacramento', cursive;
+	font-color: black;
+	font-size: 34px;
+	height: 20px;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+        color: #8B0000;
+	font-weight: regular;
+	font-size: 20px;
+	text-align: center;
+	text-transform: bold;
+}
+
+#download {
+	font-size: 30px;
+	text-align: center;  
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: 1px solid #8B0000;
+	background-color: #8B0000;
+	color: white;  
+	height: 40px;
+	width: 300px; 
+}
+
+#download a:hover, a:active {
+	color: black; 
+	font-weight: bold;
+}
+
+#download a:link {
+	text-decoration: none;
+	color: black;
+}
+
+#download a: visited {
+	color: black;
+}
+
+h3 {
+	font-family: 'Sacramento', cursive;
+	color: #8B0000;
+	font-size: 34px;
+	text-align: center;
+}
+
+
+p {
+	font-family: helvetica, sans-serif;
+	font-color: black;
+        padding-right: 150px;
+        padding-left: 220px;
+{
+
+
+.headshot {
+	float: left;
+	padding-left: 200px;
+	margin-right: 12px;
+	height: 400px;
+	width: 600px;
+}
+
+.bio {
+	float: right;
+}
+
+#headshot .bio {
+	float: clear;
+}
+
+hr {
+	color: black;
+	width: 100%;
+}
+
+#contact-pic {
+	margin: 0, auto;
+	display: block;
+	height: 400px;
+	width: 600px;
+}
+
+#contact {
+	text-align: left;
+}
+
+.footer {
+	width: 42px;
+	height: 42px;
+	border: 0;
+}
